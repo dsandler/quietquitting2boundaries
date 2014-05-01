@@ -1,4 +1,4 @@
-https://github.com/dsandler/bacoin/raw/master/Artwork/banner.png
+![Bacoin logo](https://github.com/dsandler/bacoin/raw/master/Artwork/banner.png)
 
 Bacoin
 ======
