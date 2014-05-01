@@ -31,9 +31,9 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bBitcoin\b/g, "__REPLACE_WITH_BACON_UPPER__");
-	v = v.replace(/\bBITCOIN\b/g, "__REPLACE_WITH_BACON_CAPS__");
-	v = v.replace(/\bbitcoin\b/g, "__REPLACE_WITH_BACON_LOWER__");
+	v = v.replace(/\bBitcoins?\b/g, "__REPLACE_WITH_BACON_UPPER__");
+	v = v.replace(/\bBITCOINS?\b/g, "__REPLACE_WITH_BACON_CAPS__");
+	v = v.replace(/\bbitcoins?\b/g, "__REPLACE_WITH_BACON_LOWER__");
 	v = v.replace(/\bBacon\b/g, "Bitcoin");
 	v = v.replace(/\bBACON\b/g, "BITCOIN");
 	v = v.replace(/\bbacon\b/g, "bitcoin");
