@@ -4,8 +4,8 @@ Bacoin
 ======
 
 Chrome extension that replaces occurrences of “bitcoin” with “bacon”, and vice
-versa. Why? [Because it is
-fun.]
+versa. Why? 
+[Because it made me giggle](https://twitter.com/dsandler/status/461626864239255552).
 
 Installation
 ------------
@@ -17,9 +17,13 @@ Choose _Window &rarr; Extensions_ (or navigate to chrome://extensions/) and drag
 Credits
 -------
 
-My name is [Dan](http://dsandler.org), and I had a [silly idea](https://twitter.com/dsandler/status/461626864239255552).  [Chris Tate](https://plus.google.com/+ChristopherTate/posts) gave it a
+My name is [Dan](http://dsandler.org), and I had a silly idea.  [Chris Tate](https://plus.google.com/+ChristopherTate/posts) gave it a
 [name.](https://plus.google.com/114592751246503219483/posts/Yo2WF1jPu6j)
 
 This code is inspired by, and nearly identical to, [Steve Frank's](http://stevenf.com/) classic
 [cloud-to-butt extension](https://github.com/panicsteve/cloud-to-butt). 
 
+Hidden Features
+---------------
+
+This page still makes perfect sense even when using the extension.
