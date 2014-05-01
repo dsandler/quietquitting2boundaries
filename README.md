@@ -1,3 +1,5 @@
+https://github.com/dsandler/bacoin/raw/master/Artwork/banner.png
+
 Bacoin
 ======
 
