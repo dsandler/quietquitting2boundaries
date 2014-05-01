@@ -31,10 +31,15 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bThe Cloud\b/g, "My Butt");
-	v = v.replace(/\bThe cloud\b/g, "My butt");
-	v = v.replace(/\bthe Cloud\b/g, "my Butt");
-	v = v.replace(/\bthe cloud\b/g, "my butt");
+	v = v.replace(/\bBitcoin\b/g, "__REPLACE_WITH_BACON_UPPER__");
+	v = v.replace(/\bBITCOIN\b/g, "__REPLACE_WITH_BACON_CAPS__");
+	v = v.replace(/\bbitcoin\b/g, "__REPLACE_WITH_BACON_LOWER__");
+	v = v.replace(/\bBacon\b/g, "Bitcoin");
+	v = v.replace(/\bBACON\b/g, "BITCOIN");
+	v = v.replace(/\bbacon\b/g, "bitcoin");
+	v = v.replace(/__REPLACE_WITH_BACON_UPPER__/g, "Bacon");
+	v = v.replace(/__REPLACE_WITH_BACON_CAPS__/g, "BACON");
+	v = v.replace(/__REPLACE_WITH_BACON_LOWER__/g, "bacon");
 	
 	textNode.nodeValue = v;
 }
