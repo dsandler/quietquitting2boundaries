@@ -11,6 +11,16 @@ versa. Why?
 1. Download: [Bacoin.crx](https://github.com/dsandler/bacoin/blob/master/Bacoin.crx?raw=true)
 2. Choose _Window &rarr; Extensions_ (or navigate to chrome://extensions/) and drag Bacoin.crx into the browser window.
 
+### Screenshots
+
+<img src="https://github.com/dsandler/bacoin/raw/master/Screenshots/bacon-in-the-news.png"
+     alt="Bacon in the news"
+	 style="padding: 8px; background-color: #ccc; max-width: 600px;" />
+
+![Sliced bitcoin](https://github.com/dsandler/bacoin/raw/master/Screenshots/sliced-bitcoin.jpg)
+
+[More…](https://github.com/dsandler/bacoin/tree/master/Screenshots)
+
 ### Credits
 
 My name is [Dan](http://dsandler.org), and I had a silly [idea](https://plus.google.com/+DanSandler/posts/Yo2WF1jPu6j).
