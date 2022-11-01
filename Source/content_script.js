@@ -36,15 +36,14 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bBitcoins?\b/g, "__REPLACE_WITH_BACON_UPPER__");
-	v = v.replace(/\bBITCOINS?\b/g, "__REPLACE_WITH_BACON_CAPS__");
-	v = v.replace(/\bbitcoins?\b/g, "__REPLACE_WITH_BACON_LOWER__");
-	v = v.replace(/\bBacon\b/g, "Bitcoin");
-	v = v.replace(/\bBACON\b/g, "BITCOIN");
-	v = v.replace(/\bbacon\b/g, "bitcoin");
-	v = v.replace(/__REPLACE_WITH_BACON_UPPER__/g, "Bacon");
-	v = v.replace(/__REPLACE_WITH_BACON_CAPS__/g, "BACON");
-	v = v.replace(/__REPLACE_WITH_BACON_LOWER__/g, "bacon");
+	v = v.replace(/\bQuiet Quitting\b/g, "__REPLACE_WITH_BOUNDARIES_TITLE__");
+	v = v.replace(/\bQuiet quitting\b/g, "__REPLACE_WITH_BOUNDARIES_UPPER__");
+	v = v.replace(/\bQUIET QUITTING\b/g, "__REPLACE_WITH_BOUNDARIES_CAPS__");
+	v = v.replace(/\bquiet quitting\b/g, "__REPLACE_WITH_BOUNDARIES_LOWER__");
+	v = v.replace(/__REPLACE_WITH_BOUNDARIES_TITLE__/g, "Setting Reasonable Boundaries");
+	v = v.replace(/__REPLACE_WITH_BOUNDARIES_UPPER__/g, "Setting reasonable boundaries");
+	v = v.replace(/__REPLACE_WITH_BOUNDARIES_CAPS__/g, "SETTING REASONABLE BOUNDARIES");
+	v = v.replace(/__REPLACE_WITH_BOUNDARIES_LOWER__/g, "setting reasonable boundaries");
 	
 	textNode.nodeValue = v;
 }

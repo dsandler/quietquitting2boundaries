@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Bacoin",
+	"name": "Quiet Quitting → Setting Reasonable Boundaries",
 	"version": "1.0",
-	"description": "Replaces the text 'bitcoin' with 'bacon', and vice versa.",
+	"description": "Replaces the text 'quiet quietting' with 'setting reasonable boundaries'.",
 	"content_scripts": 
 	[
 		{
