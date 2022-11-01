@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Quiet Quitting → Setting Reasonable Boundaries",
 	"version": "1.0",
-	"description": "Replaces the text 'quiet quietting' with 'setting reasonable boundaries'.",
+	"description": "Replaces the text 'quiet quitting' with 'setting reasonable boundaries'.",
 	"content_scripts": 
 	[
 		{
