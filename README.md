@@ -1,4 +1,4 @@
--![Emoji fire](https://github.com/dsandler/bacoin/raw/master/Artwork/fire.png)
+-![Emoji fire](https://github.com/dsandler/quietquitting2boundaries/raw/main/Artwork/fire.png)
 
 # Setting reasonable boundaries
 
